@@ -22,6 +22,8 @@ The server will be entirely REST/RPC based (JSON or XMLRPC is likely to be the m
 Roadmap
 -------
 
-Until Fluxus is live no further features will be considered, using the API we envisage, it will be a simple job to create a variety of web based database browsers. This will allow the community to see the libraries available on FLuxus.
+Until Fluxus is live no further features will be considered, using the API we envisage, it will be a simple job to create a variety of web based database browsers. This will allow the community to see libraries available via the Fluxus registry.
 
-As a preliminary exercise, the Fluxus team will locate as many 3rd party AS3 libraries as possible. The list available at http://wonderfl.net/libraries and the  project list at http://www.libspark.org/wiki/WikiStart/en. Of course, we will be very happy to receive updates and info from developers of any Open Source AS3 libraries.
+As a preliminary exercise, we will locate as many 3rd party AS3 libraries as possible, including those listed at http://wonderfl.net/libraries and http://www.libspark.org/wiki/WikiStart/en. 
+
+We will be happy to receive updates / info from developers of any Open Source AS3 libraries in the meantime.
