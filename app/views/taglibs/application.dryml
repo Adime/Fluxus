@@ -1,0 +1,18 @@
+<include src="rapid" plugin="hobo"/>
+
+<include src="taglibs/auto/rapid/cards"/>
+<include src="taglibs/auto/rapid/pages"/>
+<include src="taglibs/auto/rapid/forms"/>
+
+<set-theme name="clean"/>
+
+<def tag="app-name">Fluxus Project</def>
+
+<def tag="main-nav">
+  <navigation class="main-nav" merge-attrs param="default">
+    <nav-item href="#{base_url}/">Home</nav-item>
+    <nav-item with="&Library">Libraries</nav-item>
+    <nav-item href="#{base_url}/libraries/new">Add Library</nav-item>
+	<nav-item href="#{base_url}/admin/users" if="&(current_user.administrator?)">Users</nav-item>
+  </navigation>
+</def>

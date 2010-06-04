@@ -1,0 +1,9 @@
+<index-page > 
+        <collection: replace>
+                <div> 
+                        <table-plus fields="this, repository, package, licence, host">
+                                <controls:/>
+                        </table-plus>
+                </div> 
+        </collection:>
+</index-page>
