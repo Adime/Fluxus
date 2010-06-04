@@ -1,29 +1,31 @@
 Fluxus
 ======
 
-Fluxus is intended to be an ecosystem for Flex/AS3 libraries, the client is inteded to be a shell based process, with the following features...
+Fluxus is intended to be an ecosystem for Flex/AS3 libraries, 
 
-* Parse a project for library references (from import statements initially) and  ensure that the appropriate SWC or source library is available in the classpath. 
+It will consist of an online registry of library metadata, with API hooks for client side tools, and a reference level client tool(s). The initial client will be a command line tool written in Python. (Windows executable via py2exe, Mac and Linux to use Python2.5)
 
-* Maintain a local reference for remote SWC and source libraries.
+Initial Project aims:
 
-* Download (on manual demand or by other user determinded policy)
+* Provide a central resource for Flex, Air and AS3 libraries.
 
-* Notify user of unknown libraries in a project.
+* Allow library authors to send a project manifest (perhaps Maven POM or other standardised project description) to the registry for inclusion.
 
-The server component is intended to be hosted from a single location, although mirroring is under consideration. Server features include.
+* Provide a client API and reference tool to allow downloading and searching of libraries within the registry. 
 
-* Supply clients with current database (in a format to be determined)
+Current progress:
 
-* Allow authenticated users to provide updates to the database via REST interface.
+We are in the process of compiling an initial library registry, we aim to have completed the first stage of this phase by Aug 2010.
 
-The server will be entirely REST/RPC based (JSON or XMLRPC is likely to be the messaging format, other formats may be considered). Traffic will be plain-text over a standard socket. API will be published to allow development of 3rd party tools.
+Once complete the registry will be browsable online and will provide source links (git/svn/swc/zip) and the src path location within the source tree, in addition to more useless metadata (e.g. description, keywords/tags, licence type.)
 
-Roadmap
--------
+Only libraries which are covered by one of the standard OSS licences will be included: MIT, GPL, Apache, BSD etc.
 
-Until Fluxus is live no further features will be considered, using the API we envisage, it will be a simple job to create a variety of web based database browsers. This will allow the community to see libraries available via the Fluxus registry.
+What's happening right now!
+---------------------------
 
-As a preliminary exercise, we will locate as many 3rd party AS3 libraries as possible, including those listed at http://wonderfl.net/libraries and http://www.libspark.org/wiki/WikiStart/en. 
+The FluxusProject has a blog at http://blog.fluxusproject.org and tweets to: @fluxusproject (http://twitter.com/fluxusproject)
 
-We will be happy to receive updates / info from developers of any Open Source AS3 libraries in the meantime.
+There will also be numerous Gists posted on my account, which may or may not be related to fluxus. (I'll tweet important ones.)
+
+Tweet @fluxusproject if you have questions or libraries you don't want us to miss out on.
