@@ -89,6 +89,8 @@
 
             <record-flags fields="" param/>
 
+            <view:get-creator param="creator-name"/>
+
             <a action="edit" if="&can_edit?" param="edit-link">
               <ht key="libraries.actions.edit" name="&this.respond_to?(:name) ? this.name : ''">
                 Edit Library
@@ -98,7 +100,7 @@
 
           <section param="content-body">
             <view:description param="description"/>
-            <field-list fields="package, repository, licence, host, homepage, docs, tags" param/>
+            <field-list fields="package, repository, licence, host, summary, homepage, docs, tags" param/>
           </section>
     </content:>
 

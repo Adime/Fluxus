@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100519142835) do
+ActiveRecord::Schema.define(:version => 20100605123306) do
 
   create_table "libraries", :force => true do |t|
     t.string   "name"
@@ -23,7 +23,11 @@ ActiveRecord::Schema.define(:version => 20100519142835) do
     t.string   "homepage"
     t.string   "docs"
     t.string   "tags"
+    t.string   "creator"
+    t.string   "summary"
   end
+
+  add_index "libraries", ["name"], :name => "index_libraries_on_name"
 
   create_table "users", :force => true do |t|
     t.string   "crypted_password",          :limit => 40

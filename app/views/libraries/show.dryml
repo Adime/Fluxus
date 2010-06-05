@@ -1,0 +1,21 @@
+<show-page:>
+	<content-body:>
+	    <editor:name/> : <editor:summary />
+		<editor:description />
+		<hr/>
+		<dl>
+			<dt>Repository</dt>
+				<dd><a href="&@library.repository"><view:repository /></a></dd>
+			<dt>Docs</dt>
+				<dd><a href="&@library.docs"><view:docs /></a></dd>
+			<dt>Homepage</dt>
+				<dd><a href="&@library.homepage"><view:homepage /></a></dd>
+			<dt>Tags</dt>
+				<dd><editor:tags/></dd>
+		</dl>
+		<hr/>
+		<p class="smallprint"><strong>Licence:</strong> <editor:licence/></p>
+		<hr/>
+
+	</content-body:>
+</show-page:>

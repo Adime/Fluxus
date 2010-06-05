@@ -1,0 +1,9 @@
+<index-page > 
+	<collection: replace>
+	    <div> 
+	        <table-plus with="&@libraries" fields="this" without-page-nav without-search-form>
+	            <controls:/>
+	        </table-plus>
+	    </div> 
+	</collection:>
+</index-page>

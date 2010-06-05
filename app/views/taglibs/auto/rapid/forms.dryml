@@ -3,7 +3,7 @@
 <def tag="form" for="Library">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, package, repository, licence, host, description, homepage, docs, tags" param/>
+    <field-list fields="name, package, repository, licence, host, description, summary, homepage, docs, tags, creator" param/>
     <div param="actions">
       <submit label="#{ht 'libraries.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
