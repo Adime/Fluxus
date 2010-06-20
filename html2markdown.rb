@@ -47,7 +47,7 @@ class HTMLToMarkdownParser < SGMLParser
   
   def make_block_start_pair(tag, attributes)
     attributes = attrs_to_hash(attributes)
-    write("#{tag} ")
+    write("\n\n#{tag} ")
     start_capture(tag)
   end
   
@@ -58,13 +58,13 @@ class HTMLToMarkdownParser < SGMLParser
   
   def make_quicktag_start_pair(tag, wrapchar, attributes)
     attributes = attrs_to_hash(attributes)
-    write(["", "#{wrapchar}"])
+    write([" ", "#{wrapchar}"])
     start_capture(tag)
   end
 
   def make_quicktag_end_pair(wrapchar)
     stop_capture_and_write
-    write([wrapchar, ""])
+    write([wrapchar, " "])
   end
   
   def write(d)
@@ -90,8 +90,7 @@ class HTMLToMarkdownParser < SGMLParser
   end
 
   %w[1 2 3 4 5 6].each do |num|
-    define_method "start_h#{num}" do |attributes|
-      write("\n\n")     
+    define_method "start_h#{num}" do |attributes| 
       make_block_start_pair("#" * num.to_i, attributes)
     end
     
@@ -100,7 +99,7 @@ class HTMLToMarkdownParser < SGMLParser
     end
   end
 
-  PAIRS = { 'blockquote' => '> ' }
+  PAIRS = { 'blockquote' => '>' }
   QUICKTAGS = { 'b' => '**', 'strong' => '__', 'i' => '*', 'em' => '_' }
   
   PAIRS.each do |key, value|
@@ -146,25 +145,27 @@ class HTMLToMarkdownParser < SGMLParser
   def end_pre
     self.in_pre = false
     stop_capture_and_write
-    write("\n\n\n")
+    write("\n\n\n\n")
   end
   
   def start_ol(attrs)
+    write("\n\n")
     self.in_ol = true
   end
 
   def end_ol
     self.in_ol = false
-    write("\n")
+    write("\n\n")
   end
 
   def start_ul(attrs)
+    write("\n\n")
     self.in_ul = true
   end
 
   def end_ul
     self.in_ul = false
-    write("\n")
+    write("\n\n")
   end
   
   def start_li(attrs)
@@ -216,14 +217,14 @@ class HTMLToMarkdownParser < SGMLParser
   end 
 
   def start_br(attrs)
-    write("\n")
+    write("\n\n")
   end
 
   def start_hr(attrs)
     write("\n\n- - -\n\n")
   end
   
-  # Return the textile after processing
+  # Return the markdown after processing
   def to_markdown
     result.join
   end   
