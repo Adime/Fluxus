@@ -1,5 +1,14 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
 
+<def tag="card" for="Comment">
+  <card class="comment" param="default" merge>
+    <body: param>
+      <view:body param="description"/>
+      <a:user param="creator-link"/>
+    </body:>
+  </card>
+</def>
+
 <def tag="card" for="Library">
   <card class="library" param="default" merge>
     <header: param>
@@ -8,6 +17,9 @@
     <body: param>
       <view:description param="description"/>
       <view:creator param="creator"/>
+      <ht key="comments.collection.count" count="&this.comments.size">
+         <count:comments param/>
+      </ht>
     </body:>
   </card>
 </def>

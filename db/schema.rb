@@ -9,22 +9,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100605123306) do
+ActiveRecord::Schema.define(:version => 20100620055747) do
+
+  create_table "comments", :force => true do |t|
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+    t.integer  "library_id"
+  end
+
+  add_index "comments", ["library_id"], :name => "index_comments_on_library_id"
+  add_index "comments", ["user_id"], :name => "index_comments_on_user_id"
 
   create_table "libraries", :force => true do |t|
     t.string   "name"
+    t.string   "summary"
+    t.text     "description"
     t.string   "package"
     t.string   "repository"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "licence"
+    t.string   "sourcepath"
+    t.string   "license"
     t.string   "host"
-    t.text     "description"
     t.string   "homepage"
     t.string   "docs"
     t.string   "tags"
     t.string   "creator"
-    t.string   "summary"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "libraries", ["name"], :name => "index_libraries_on_name"

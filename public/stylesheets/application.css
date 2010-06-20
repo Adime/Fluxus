@@ -42,12 +42,6 @@ body {
 	margin-bottom: 0em;
 }
 
-.library-description p {
-	margin: 1em;
-	width: 70%;
-	line-height: 1.3em;
-}
-
 dl {
 	margin: 0 1em 0 1em;
 }
@@ -92,3 +86,30 @@ div.table-plus table tbody tr td.this-view {
 div.table-plus table thead tr th {
 	background-color: #366999;
 }
+
+.library-description pre {
+	margin: 10px;
+	padding: 10px;
+	border-top:1px solid #E9E3D2;
+	border-bottom:1px solid #E9E3D2;
+	background-color: #F9F7F3;
+    font-size:80%;	
+}
+
+.library-description code {
+    font-size:90%;	
+    color: #000;
+	background-color: #F9F7F3;
+	padding: 3px 3px;
+}
+
+.library-description p {
+	
+	margin:1em 0px;
+}
+
+.library-description {
+	margin: 1em;
+	line-height: 1.3em;
+}
+

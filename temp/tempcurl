@@ -1,0 +1,465 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var logged_in_user_email = null;
+ 
+ 
+ var relative_base_url = "";
+ 
+ </script>
+ 
+ 
+ <title>
+ flvslicer -
+ 
+ Project Hosting on Google Code</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/13637207143931721394/css/ph_core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/13637207143931721394/css/ph_detail.css" >
+ 
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/13637207143931721394/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ </style>
+</head>
+<body class="t1">
+ <script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ </script>
+ <div id="gaia">
+ 
+ <span>
+ 
+ <a href="#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fflvslicer%2F&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fflvslicer%2F" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if IE 6]>
+<div style="text-align:center;">
+Support browsers that contribute to open source, try <a href="http://www.firefox.com">Firefox</a> or <a href="http://www.google.com/chrome">Google Chrome</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 20px 0px 0px 0px; width:100%" cellpadding="0" cellspacing="0">
+ <tr style="height: 58px;">
+ 
+ <td style="width: 55px; text-align:center;">
+ <a href="/p/flvslicer/">
+ 
+ 
+ <img src="/p/flvslicer/logo?cct=1250243159" alt="Logo">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname" style="margin: 0px 0px -3px 0px">
+ <a href="/p/flvslicer/" style="text-decoration:none; color:#000">flvslicer</a>
+ 
+ </div>
+ <div id="psum">
+ <i><a id="project_summary_link" href="/p/flvslicer/" style="text-decoration:none; color:#000">A simple FLV slicer and merger</a></i>
+ </div>
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="">
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+
+ 
+<table id="mt" cellspacing="0" cellpadding="0" width="100%" border="0">
+ <tr>
+ <th onclick="if (!cancelBubble) _go('/p/flvslicer/');">
+ <div class="tab active">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/flvslicer/">Project&nbsp;Home</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/flvslicer/downloads/list');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/flvslicer/downloads/list">Downloads</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/flvslicer/w/list');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/flvslicer/w/list">Wiki</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/flvslicer/issues/list');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/flvslicer/issues/list">Issues</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/flvslicer/source/checkout');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/flvslicer/source/checkout">Source</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ <td width="100%">&nbsp;</td>
+ </tr>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <td>
+ <div class="st1">
+ <div class="isf">
+ <span class="inst1">
+ <a href="/p/flvslicer/">Summary</a>
+ </span>
+ 
+ 
+ |
+ <span class="inst2">
+ <a href="/p/flvslicer/updates/list">Updates</a>
+ </span>
+ 
+ |
+ <span class="inst3">
+ <a href="/p/flvslicer/people/list">People</a>
+ </span>
+ 
+ </div>
+</div>
+
+ </td>
+ 
+ 
+ <td height="4" align="right" valign="top" class="bevel-right">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ </td>
+ </tr>
+</table>
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+
+
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+
+<style type="text/css">
+ #downloadbox {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ }
+ #owners a, #members a { white-space: nowrap; }
+</style>
+
+<style type="text/css">
+ .activity-level-High {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) 0 0;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-Low {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) 0 -16px;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-Medium {
+ background: no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) -16px 0;
+ width: 16px;
+ height: 16px;
+ }
+ .activity-level-None {
+ background:no-repeat url(http://www.gstatic.com/codesite/ph/images/activity-level.png) -16px -16px;
+ width: 16px;
+ height: 16px;
+ }
+</style>
+
+<div style="float:right; width:20em; margin:0 0 1em 2em">
+ 
+ <div class="pmeta_bubble_bg">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <table class="pmeta" cellpadding="5">
+ 
+ 
+ 
+ <tr><td><b>Activity:</b>
+ <img src="http://www.gstatic.com/codesite/ph/images/cleardot.gif" class="activity-level-None">
+ <span><a href="updates/list">None</a></span>
+ </td></tr>
+ 
+ 
+ 
+ <tr><td>
+ <b>Code license: </b><br/><a href="http://www.opensource.org/licenses/mit-license.php" rel="nofollow">MIT License</a>
+ </td></tr>
+ 
+ 
+ 
+ 
+ 
+ </table>
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ 
+ 
+ <div style="background:#ddf8cc; margin-bottom: 5px;table-layout:fixed">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ 
+ <table cellpadding="5">
+ <tr><td style="width:230px">
+ <b>Featured downloads:</b>
+ <br/>
+ <span id="downloadbox">
+ 
+ <button type="submit" title="Download" onclick="location.href='http://flvslicer.googlecode.com/files/FLVSlicer%200.5.zip'">
+ <img align="" src="/hosting/images/dl_arrow.gif" style="height: 10px;"/>
+ </button>
+ <a href="downloads/detail?name=FLVSlicer 0.5.zip"
+ title="FLVSlicer 0.5 (beta)">FLVSlicer 0.5.zip</a><br/>
+ 
+ </span>
+ <a href="downloads/list">Show all &raquo</a>
+ </td></tr>
+ </table>
+ 
+ 
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ 
+ 
+ 
+ <div class="pmeta_bubble_bg">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <table class="pmeta" cellpadding="5">
+ 
+ <tr>
+ <td><b>Blogs:</b><br/>
+ 
+ <a href="http://www.bytearray.org" rel="nofollow">bytearray.org</a><br/>
+ 
+ </td>
+ </tr>
+ 
+ 
+ <tr>
+ <td><b>Feeds:</b><br/>
+ <a href="/p/flvslicer/feeds">Project feeds</a>
+ </td>
+ </tr>
+ 
+ </table>
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ 
+ 
+ <div class="pmeta_bubble_bg">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <table class="pmeta" cellpadding="5">
+ 
+ <tr><td style="width:230px">
+ <b>Owners:</b><br/>
+ 
+ <a style="white-space: nowrap" href="/u/thibault.imbert/">thibault.imbert</a>
+ 
+ </td></tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr><td>
+ <a href="people/list">People details &raquo;</a>
+ </td><tr/>
+ 
+ </table>
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ 
+</div>
+ <div id="wikicontent" style="padding:0 3em 1.2em 0">
+ <p>Allows you to slice an FLV at runtime in AS3. Slices can also be merged into a single FLV file. </p><p>FLVSlicer can also extract sound or video only from an FLV. </p><p>AS3 Code Sample : </p><pre class="prettyprint">//create the FLVSlice object
+var slicer:FLVSlicer = new FLVSlicer(new flvBytes());
+
+// listen for the SlicedEvent.COMPLETE event
+slicer.addEventListener( SlicedEvent.COMPLETE, onSliced );
+
+// extract the slice with the specific timing (in ms) and save it
+var firstSlice:FLVSlice = slicer.slice(1000, 3000);
+
+// extract another slice with the specific timing (in ms) and save it
+var secondSlice:FLVSlice = slicer.slice(7200, 8900);
+
+// create a FLVSlice vector
+var slices:Vector.&lt;FLVSlice&gt; = new Vector.&lt;FLVSlice&gt;();
+
+// store the slices
+slices.push ( firstSlice );
+slices.push ( secondSlice );
+
+// merge them as a single FLV stream
+var merged:FLVSlice = slicer.merge( slices );</pre>
+ </div>
+
+<br><br><br><br><br><br><br><br>
+<script src="http://www.gstatic.com/codesite/ph/13637207143931721394/js/prettify/prettify.js"></script>
+<script type="text/javascript">
+ prettyPrint();
+</script>
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/13637207143931721394/js/core_scripts_20081103.js"></script>
+ <script type="text/javascript" src="/js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+ </div>
+<div id="footer" dir="ltr">
+ 
+ <div class="text">
+ 
+ &copy;2010 Google -
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ 
+ </div>
+</div>
+
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+ 
+ 
+
+
+ 
+ </body>
+</html>
+

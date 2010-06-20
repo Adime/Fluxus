@@ -1,0 +1,6 @@
+<show-page>
+	<before-heading:>
+		<p>Visit <a href="http://gravatar.com">Gravatar.com</a> to edit your profile image.</p>
+		<gravatar style="float:left;margin-right:10px;border:1px solid black;"/>
+	</before-heading:>
+</show-page>

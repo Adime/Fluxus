@@ -1,21 +1,23 @@
 <show-page:>
-	<content-body:>
-	    <editor:name/> : <editor:summary />
-		<editor:description />
-		<hr/>
-		<dl>
-			<dt>Repository</dt>
-				<dd><a href="&@library.repository"><view:repository /></a></dd>
-			<dt>Docs</dt>
-				<dd><a href="&@library.docs"><view:docs /></a></dd>
-			<dt>Homepage</dt>
-				<dd><a href="&@library.homepage"><view:homepage /></a></dd>
-			<dt>Tags</dt>
-				<dd><editor:tags/></dd>
-		</dl>
-		<hr/>
-		<p class="smallprint"><strong>Licence:</strong> <editor:licence/></p>
-		<hr/>
 
-	</content-body:>
+	<before-heading:>
+		<delete-button: if="&can_edit?"/>
+	</before-heading:>
+	
+	<creator-name: remove />
+	
+	<field-list: replace>
+		<table class="field-list">
+			<tr><th>Homepage:   </th> <td><a class="smallprint" href="&@library.homepage"><view:homepage /></a>     </td></tr>
+			<tr><th>Docs:       </th> <td><a class="smallprint" href="&@library.docs"><view:docs /></a>             </td></tr>
+			<tr><th>Repository: </th> <td><span class="smallprint">[<view:package />]</span> <a class="smallprint" href="&@library.repository"><view:repository /></a> </td></tr>
+		</table>
+		<hr/>
+		<div class="smallprint">  | <strong>Tags</strong> <editor:tags/> | <strong>License:</strong> <editor:license/></div>
+	</field-list:>
+	
+	<after-collection-section: >
+
+	</after-collection-section: >
+	
 </show-page:>

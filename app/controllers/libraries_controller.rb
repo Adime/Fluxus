@@ -8,4 +8,12 @@ class LibrariesController < ApplicationController
     @libraries = Library.all
   end
 
+  def tableplus
+    @libraries = Library.all
+  end
+
+
+#  def table
+#  end
+
 end

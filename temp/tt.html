@@ -1,0 +1,25 @@
+<p> Open-source Webservice class implementation in AS3 for Flash CS3 IDE.</p>
+
+<p> Download <a href="http://as3webservice.googlecode.com/svn/trunk/build/as3webservice.zip">*.mxp extension here</a> .</p>
+
+<p> Browse <a href="http://code.google.com/p/as3webservice/source/checkout">source here</a> .</p>
+
+<p> Example code:</p>
+
+<p>import be.wellconsidered.services.WebService;</p>
+
+<pre><code>import be.wellconsidered.services.Operation;
+
+import be.wellconsidered.services.events.OperationEvent;
+
+var ws = new WebService("http://www.webservicex.net/WeatherForecast.asmx?wsdl");
+var op:Operation = new Operation(ws);
+
+op.addEventListener(OperationEvent.COMPLETE, onResult);
+op.addEventListener(OperationEvent.FAILED, onFault);
+
+op.GetWeatherByPlaceName("new york");  
+
+function onResult(e:OperationEvent):void { trace(e.data); }
+function onFault(e:OperationEvent):void { trace(e.data); }
+</code></pre>

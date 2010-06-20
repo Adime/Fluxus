@@ -12,6 +12,120 @@
 
 
 
+<!-- ====== Comment Pages ====== -->
+
+<def tag="index-page" for="Comment">
+  <page merge title="#{ht 'comments.index.title', :default=>['Comments'] }">
+    <body: class="index-page comment" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="comments.index.heading">
+            Comments
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="comments.collection.count" count="&this.size">
+            There <count prefix="are"/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="Comment">
+  <page merge title="#{ht 'comments.new.title', :default=>[' New Comment'] }">
+    <body: class="new-page comment" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="comments.new.heading">
+            New Comment
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'comments.actions.create', :default=>['Create Comment']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="Comment">
+  <page merge title="#{ht 'comments.show.title', :default=>['Comment'] }">
+
+    <body: class="show-page comment" param/>
+
+    <content: param>
+          <header param="content-header">
+            <a:library param="parent-link">&laquo; <ht key="comments.actions.back" to="library"><name/></ht></a:library>
+            <h2 param="heading">
+              <ht key="comments.show.heading" name="&this.respond_to?(:name) ? this.name : ''">
+                <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a:user param="creator-link"/>
+          </header>
+
+          <section param="content-body">
+            <view:body param="description"/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="Comment">
+  <page merge title="#{ht 'comments.edit.title', :default=>['Edit Comment'] }">
+
+    <body: class="edit-page comment" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="comments.edit.heading" name="&this.respond_to?(:name) ? this.name : ''">
+            Edit <type-name/>
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'comments.actions.delete', :default=>['Remove This Comment']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+
+
 <!-- ====== Library Pages ====== -->
 
 <def tag="index-page" for="Library">
@@ -100,7 +214,16 @@
 
           <section param="content-body">
             <view:description param="description"/>
-            <field-list fields="package, repository, licence, host, summary, homepage, docs, tags" param/>
+            <field-list fields="summary, package, repository, sourcepath, license, host, homepage, docs, tags" param/>
+            <section param="collection-section">
+              <h3 param="collection-heading">
+                <ht key="libraries.collection.heading.other" >
+                  Comments
+                </ht>
+              </h3>
+
+              <collection:comments param/>
+            </section>
           </section>
     </content:>
 

@@ -1,5 +1,4 @@
-Fluxus
-======
+# Fluxus
 
 Fluxus is intended to be an ecosystem for Flex/AS3 libraries, 
 
@@ -21,8 +20,7 @@ Once complete the registry will be browsable online and will provide source link
 
 Only libraries which are covered by one of the standard OSS licences will be included: MIT, GPL, Apache, BSD etc.
 
-What's happening right now!
----------------------------
+## What's happening right now!
 
 The FluxusProject has a blog at [http://blog.fluxusproject.org](http://blog.fluxusproject.org) and tweets to: [@fluxusproject](http://twitter.com/fluxusproject)
 

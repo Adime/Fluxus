@@ -1,9 +1,21 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
 
+<def tag="form" for="Comment">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="body, library, user" param/>
+    <div param="actions">
+      <submit label="#{ht 'comments.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
 <def tag="form" for="Library">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, package, repository, licence, host, description, summary, homepage, docs, tags, creator" param/>
+    <field-list fields="name, summary, description, package, repository, sourcepath, license, host, homepage, docs, tags, creator" param/>
     <div param="actions">
       <submit label="#{ht 'libraries.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

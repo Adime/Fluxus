@@ -1,0 +1,528 @@
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:14:12) [GET]
+  Parameters: {"id"=>"119-aocontainer"}
+Rendering libraries/show
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.02s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.13s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.11s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.42s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.19s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.11s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.27s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.85s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.14s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.51s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.06s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.62s
+  DRYML: Compiled app/views/libraries/show.dryml in 2.72s
+Completed in 3147ms (View: 3090, DB: 49) | 200 OK [http://0.0.0.0/libraries/119-aocontainer]
+
+
+Processing UsersController#logout (for 127.0.0.1 at 2010-06-20 23:14:22) [GET]
+  Parameters: {"action"=>"logout", "controller"=>"users"}
+Redirected to http://0.0.0.0:3000
+Completed in 8ms (DB: 1) | 302 Found [http://0.0.0.0/logout]
+
+
+Processing FrontController#index (for 127.0.0.1 at 2010-06-20 23:14:22) [GET]
+Rendering front/index
+  DRYML: Compiled app/views/front/index.dryml in 0.01s
+Completed in 66ms (View: 42, DB: 21) | 200 OK [http://0.0.0.0/]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-20 23:14:24) [GET]
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Completed in 38ms (View: 34, DB: 0) | 200 OK [http://0.0.0.0/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-20 23:14:32) [POST]
+  Parameters: {"remember_me"=>"on", "page_path"=>"users/login", "action"=>"login", "authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "controller"=>"users", "login"=>"jasonm23@gmail.com", "password"=>"[FILTERED]"}
+Redirected to http://0.0.0.0:3000
+Completed in 98ms (DB: 1) | 302 Found [http://0.0.0.0/login]
+
+
+Processing FrontController#index (for 127.0.0.1 at 2010-06-20 23:14:32) [GET]
+Rendering front/index
+Completed in 41ms (View: 37, DB: 2) | 200 OK [http://0.0.0.0/]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:14:36) [GET]
+Completed in 709ms (View: 631, DB: 68) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing Admin::UsersController#index (for 127.0.0.1 at 2010-06-20 23:14:39) [GET]
+Rendering admin/users/index
+  DRYML: Compiled app/views/taglibs/auto/admin/rapid/cards.dryml in 0.03s
+  DRYML: Compiled app/views/taglibs/auto/admin/rapid/pages.dryml in 0.24s
+  DRYML: Compiled app/views/taglibs/auto/admin/rapid/forms.dryml in 0.04s
+  DRYML: Compiled app/views/taglibs/admin_site.dryml in 0.34s
+  DRYML: Compiled app/views/admin/users/index.dryml in 0.34s
+Completed in 400ms (View: 387, DB: 4) | 200 OK [http://0.0.0.0/admin/users]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:14:44) [GET]
+Completed in 542ms (View: 525, DB: 10) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing FrontController#search (for 127.0.0.1 at 2010-06-20 23:14:58) [GET]
+  Parameters: {"query"=>"inject"}
+Completed in 86ms (View: 0, DB: 53) | 200 OK [http://0.0.0.0/search?query=inject]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-20 23:15:10) [GET]
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Redirected to http://0.0.0.0:3000
+Completed in 3ms (DB: 1) | 302 Found [http://0.0.0.0/login]
+
+
+Processing UsersController#login (for 127.0.0.1 at 2010-06-20 23:15:12) [GET]
+  Parameters: {"action"=>"login", "controller"=>"users"}
+Redirected to http://0.0.0.0:3000
+Completed in 3ms (DB: 1) | 302 Found [http://0.0.0.0/login]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:15:20) [GET]
+Completed in 662ms (View: 646, DB: 10) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing FrontController#search (for 127.0.0.1 at 2010-06-20 23:15:25) [GET]
+  Parameters: {"query"=>"robo"}
+Completed in 15ms (View: 0, DB: 4) | 200 OK [http://0.0.0.0/search?query=robo]
+
+
+Processing FrontController#search (for 127.0.0.1 at 2010-06-20 23:15:26) [GET]
+  Parameters: {"query"=>"robot"}
+Completed in 16ms (View: 0, DB: 4) | 200 OK [http://0.0.0.0/search?query=robot]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:15:30) [GET]
+  Parameters: {"id"=>"248-robotlegs"}
+Rendering libraries/show
+Completed in 58ms (View: 50, DB: 5) | 200 OK [http://0.0.0.0/libraries/248-robotlegs]
+
+
+Processing LibrariesController#update (for 127.0.0.1 at 2010-06-20 23:15:55) [PUT]
+  Parameters: {"authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "render"=>{"0"=>{"result"=>"new_field_value", "id"=>"uid1", "function"=>"Hobo.onFieldEditComplete"}}, "id"=>"248", "library"=>{"tags"=>"ioc, dependency injection, framework"}, "_"=>"", "editorId"=>"uid1"}
+Completed in 20ms (View: 1, DB: 5) | 200 OK [http://0.0.0.0/libraries/248?_method=PUT]
+
+
+Processing LibrariesController#update (for 127.0.0.1 at 2010-06-20 23:15:55) [PUT]
+  Parameters: {"authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "render"=>{"0"=>{"result"=>"new_field_value", "id"=>"uid1", "function"=>"Hobo.onFieldEditComplete"}}, "id"=>"248", "library"=>{"tags"=>"ioc, dependency injection, framework"}, "_"=>"", "editorId"=>"uid1"}
+Completed in 12ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/libraries/248?_method=PUT]
+
+
+Processing FrontController#index (for 127.0.0.1 at 2010-06-20 23:27:36) [GET]
+Rendering front/index
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.02s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.26s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.15s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.26s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.11s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.45s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.19s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.04s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.12s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.28s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.98s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.17s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.51s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.07s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.82s
+  DRYML: Compiled app/views/front/index.dryml in 3.15s
+Completed in 3461ms (View: 3434, DB: 22) | 200 OK [http://0.0.0.0/]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:28:20) [GET]
+Completed in 750ms (View: 675, DB: 62) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:29:26) [GET]
+Rendering libraries/index
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.02s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.12s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.07s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.42s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.18s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.11s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.28s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.80s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.14s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.51s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.06s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.57s
+  DRYML: Compiled app/views/libraries/index.dryml in 2.61s
+Completed in 3190ms (View: 3153, DB: 22) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:29:45) [GET]
+  Parameters: {"page"=>"2"}
+Rendering libraries/index
+Completed in 553ms (View: 480, DB: 66) | 200 OK [http://0.0.0.0/libraries?page=2]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:29:50) [GET]
+  Parameters: {"page"=>"3"}
+Rendering libraries/index
+Completed in 515ms (View: 495, DB: 13) | 200 OK [http://0.0.0.0/libraries?page=3]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:29:55) [GET]
+  Parameters: {"page"=>"4"}
+Rendering libraries/index
+Completed in 391ms (View: 373, DB: 11) | 200 OK [http://0.0.0.0/libraries?page=4]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:00) [GET]
+  Parameters: {"page"=>"5"}
+Rendering libraries/index
+Completed in 534ms (View: 518, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=5]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:03) [GET]
+  Parameters: {"page"=>"6"}
+Rendering libraries/index
+Completed in 551ms (View: 486, DB: 60) | 200 OK [http://0.0.0.0/libraries?page=6]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:08) [GET]
+  Parameters: {"page"=>"7"}
+Rendering libraries/index
+Completed in 500ms (View: 483, DB: 11) | 200 OK [http://0.0.0.0/libraries?page=7]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:24) [GET]
+  Parameters: {"page"=>"8"}
+Rendering libraries/index
+Completed in 392ms (View: 376, DB: 9) | 200 OK [http://0.0.0.0/libraries?page=8]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:29) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 535ms (View: 376, DB: 153) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:30:32) [GET]
+  Parameters: {"page"=>"10"}
+Rendering libraries/index
+Completed in 212ms (View: 202, DB: 6) | 200 OK [http://0.0.0.0/libraries?page=10]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:33:56) [GET]
+  Parameters: {"page"=>"10"}
+Rendering libraries/index
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.02s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.13s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.07s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.45s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.19s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.12s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.28s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.84s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.16s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.54s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.06s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.67s
+  DRYML: Compiled app/views/libraries/index.dryml in 2.70s
+Completed in 2983ms (View: 2956, DB: 16) | 200 OK [http://0.0.0.0/libraries?page=10]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:34:06) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 496ms (View: 479, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:34:11) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+Rendering libraries/show
+  DRYML: Compiled app/views/libraries/show.dryml in 0.02s
+Completed in 84ms (View: 74, DB: 6) | 200 OK [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:34:14) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 516ms (View: 501, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:34:16) [GET]
+  Parameters: {"id"=>"73-swfsize"}
+Rendering libraries/show
+Completed in 113ms (View: 106, DB: 4) | 200 OK [http://0.0.0.0/libraries/73-swfsize]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:34:22) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 505ms (View: 489, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:34:25) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+Rendering libraries/show
+Completed in 59ms (View: 51, DB: 6) | 200 OK [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:34:28) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 509ms (View: 493, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:34:30) [GET]
+  Parameters: {"id"=>"72-swfwheel"}
+Rendering libraries/show
+Completed in 58ms (View: 51, DB: 4) | 200 OK [http://0.0.0.0/libraries/72-swfwheel]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:34:44) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 503ms (View: 487, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:34:48) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+Rendering libraries/show
+Completed in 161ms (View: 52, DB: 107) | 200 OK [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:35:18) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+Rendering libraries/show
+Completed in 59ms (View: 51, DB: 5) | 200 OK [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:35:25) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+Rendering libraries/show
+Completed in 59ms (View: 51, DB: 6) | 200 OK [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#destroy (for 127.0.0.1 at 2010-06-20 23:35:30) [DELETE]
+  Parameters: {"authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "id"=>"284-swfsize"}
+Redirected to http://0.0.0.0:3000/libraries
+Completed in 14ms (DB: 3) | 302 Found [http://0.0.0.0/libraries/284-swfsize]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:35:30) [GET]
+Rendering libraries/index
+Completed in 519ms (View: 500, DB: 12) | 200 OK [http://0.0.0.0/libraries]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:35:34) [GET]
+  Parameters: {"id"=>"284-swfsize"}
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:35:34) [GET]
+  Parameters: {"page"=>"9"}
+Rendering libraries/index
+Completed in 511ms (View: 495, DB: 10) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#destroy (for 127.0.0.1 at 2010-06-20 23:35:40) [DELETE]
+  Parameters: {"authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "id"=>"72-swfwheel", "_"=>""}
+Completed in 27ms (View: 4, DB: 2) | 200 OK [http://0.0.0.0/libraries/72-swfwheel]
+
+
+Processing LibrariesController#destroy (for 127.0.0.1 at 2010-06-20 23:35:44) [DELETE]
+  Parameters: {"authenticity_token"=>"U2po7KiG+d11G3mQ60ixGD+/gRKIlLE2+etJ2gX1GMs=", "id"=>"73-swfsize", "_"=>""}
+Completed in 12ms (View: 1, DB: 2) | 200 OK [http://0.0.0.0/libraries/73-swfsize]
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:37:36) [GET]
+  Parameters: {"page"=>"9"}
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/core.dryml in 0.03s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_core.dryml in 0.25s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_document_tags.dryml in 0.13s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_pages.dryml in 0.15s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_editing.dryml in 0.16s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_forms.dryml in 0.42s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_navigation.dryml in 0.05s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_plus.dryml in 0.09s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_generics.dryml in 0.13s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_lifecycles.dryml in 0.01s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_summary.dryml in 0.11s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid_user_pages.dryml in 0.27s
+  DRYML: Compiled /Library/Ruby/Gems/1.8/gems/hobo-1.0.0/taglibs/rapid.dryml in 1.79s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.04s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.51s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.16s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 2.57s
+Completed in 3202ms (View: 3162, DB: 26) | 200 OK [http://0.0.0.0/libraries?page=9]
+
+
+Processing LibrariesController#show (for 127.0.0.1 at 2010-06-20 23:37:51) [GET]
+  Parameters: {"id"=>"tableplus"}
+
+
+Processing LibrariesController#tableplus (for 127.0.0.1 at 2010-06-20 23:37:54) [GET]
+  Parameters: {"id"=>"all"}
+Rendering libraries/tableplus
+  DRYML: Compiled app/views/libraries/tableplus.dryml in 0.00s
+
+ActionView::TemplateError (undefined method `total_pages' for #<Array:0x219b73c>) on line #1 of app/views/libraries/tableplus.dryml:
+1: <index-page > 
+2: 	<collection: replace>
+3: 	    <div> 
+4: 	        <table-plus with="&@libraries" fields="this" without-page-nav without-search-form>
+
+    /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.14/lib/will_paginate/view_helpers.rb:201:in `total_pages_for_collection'
+    /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.14/lib/will_paginate/view_helpers.rb:98:in `will_paginate'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:605:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:605:in `method_missing'
+    hobo (1.0.0) taglibs/rapid_navigation.dryml:88:in `page_nav'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_navigation.dryml:87:in `page_nav'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:427:in `call_tag_parameter'
+    app/views/taglibs/auto/rapid/pages.dryml:155:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    app/views/taglibs/auto/rapid/pages.dryml:150:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:457:in `call'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:457:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `call'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `method_missing'
+    hobo (1.0.0) taglibs/rapid_document_tags.dryml:21:in `section'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_document_tags.dryml:20:in `section'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:427:in `call_tag_parameter'
+    app/views/taglibs/auto/rapid/pages.dryml:150:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    app/views/taglibs/auto/rapid/pages.dryml:135:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:455:in `call'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:455:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `call'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `method_missing'
+    hobo (1.0.0) taglibs/rapid_document_tags.dryml:21:in `section'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_document_tags.dryml:20:in `section'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:464:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:427:in `call_tag_parameter'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:46:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/scoped_variables.rb:20:in `new_scope'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:38:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:37:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:447:in `call'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:447:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:447:in `override_and_call_tag'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:427:in `call_tag_parameter'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:37:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:16:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:377:in `call'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:377:in `call_tag_parameter_with_default_content'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `call'
+    hobo (1.0.0) lib/hobo/dryml/tag_parameters.rb:21:in `method_missing'
+    hobo (1.0.0) taglibs/core.dryml:55:in `do_'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/core.dryml:55:in `do_'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:381:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:381:in `call_tag_parameter_with_default_content'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:403:in `call_tag_parameter'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:165:in `html'
+    hobo (1.0.0) lib/hobo/dryml/scoped_variables.rb:20:in `new_scope'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:165:in `html'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:160:in `html'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:16:in `page_without_aaa82d3a9ca5'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:14:in `page_without_aaa82d3a9ca5'
+    app/views/taglibs/themes/clean/clean.dryml:2:in `page'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    app/views/taglibs/themes/clean/clean.dryml:1:in `page'
+    app/views/taglibs/auto/rapid/pages.dryml:132:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    app/views/taglibs/auto/rapid/pages.dryml:131:in `index_page__for_library'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:200:in `send'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:200:in `call_polymorphic_tag'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:70:in `index_page'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:328:in `_tag_context'
+    hobo (1.0.0) taglibs/rapid_pages.dryml:67:in `index_page'
+    app/views/libraries/tableplus.dryml:1:in `render_page'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:267:in `new_object_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:248:in `new_context'
+    hobo (1.0.0) lib/hobo/dryml/template_environment.rb:255:in `new_object_context'
+    app/views/libraries/tableplus.dryml:1:in `render_page'
+    hobo (1.0.0) lib/hobo/dryml/template_handler.rb:22:in `render_for_rails22'
+    hobo (1.0.0) lib/hobo/dryml/template_handler.rb:142:in `render_dryml'
+    hobo (1.0.0) lib/hobo/dryml/template_handler.rb:138:in `render_dryml'
+    hobo (1.0.0) lib/hobo/dryml/template_handler.rb:106:in `render'
+    hobo (1.0.0) lib/hobo/dryml/template_handler.rb:83:in `render_for_file'
+    hobo (1.0.0) lib/hobo/model_controller.rb:818:in `render'
+    hobo (1.0.0) lib/hobo/controller.rb:23:in `call'
+    hobo (1.0.0) lib/hobo/controller.rb:23:in `included_in_class'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LibrariesController#index (for 127.0.0.1 at 2010-06-20 23:38:07) [GET]
+Completed in 555ms (View: 537, DB: 14) | 200 OK [http://0.0.0.0/libraries/]

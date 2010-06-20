@@ -24,6 +24,25 @@
     </header:>
     <body: param>
       <view:summary/>
+      <p class="smallprint"><a href="&this.homepage"><view:homepage/></a></p>
+	  <p class="smallprint">[<view:package/>] <a href="&this.repository"><view:repository/></a></p>
     </body:>
   </card>
 </def>
+
+<extend tag="card" for="Comment">
+  <old-card merge>
+    <body:>
+      <div>
+        On <view:created_at/>, <a:user/> said:
+      </div>
+      <view:body/>
+    </body:>
+  </old-card>
+</extend>
+
+<extend tag="form" for="Comment">
+  <old-form merge>
+    <field-list: fields="body" without-body-label/>
+  </old-form>
+</extend>

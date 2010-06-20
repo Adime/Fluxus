@@ -8,12 +8,13 @@ class Library < ActiveRecord::Base
 
   fields do
     name        :string, :index => true
+    summary     :string
+    description :markdown
     package     enum_string(:git, :svn, :swc, :zip)
     repository  :string
-    licence     :string
+    sourcepath  :string
+    license     :string
     host        :string
-    description :textile
-    summary     :string
     homepage    :string
     docs        :string
     tags        :string
@@ -21,7 +22,9 @@ class Library < ActiveRecord::Base
     timestamps
   end
 
-  # set_search_columns :name, :tags, :description
+  has_many :comments, :dependent => :destroy
+
+  set_search_columns :name, :tags, :summary, :description
   
   set_default_order "name"
 

@@ -23,6 +23,7 @@
 
 <extend tag="card" for="User">
   <old-card merge>
+    <before-header:><gravatar style="float:left;margin-right:10px;border:1px solid black;" /></before-header:>
     <append-header:><%= h this.state.titleize %></append-header:>
   </old-card>
 </extend>
