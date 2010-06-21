@@ -24,6 +24,4 @@ Only libraries which are covered by one of the standard OSS licences will be inc
 
 The FluxusProject has a blog at [http://blog.fluxusproject.org](http://blog.fluxusproject.org) and tweets to: [@fluxusproject](http://twitter.com/fluxusproject)
 
-There will also be numerous Gists posted on my account, which may or may not be related to fluxus. (I'll tweet important ones.)
-
-Tweet [@fluxusproject](http://twitter.com/fluxusproject) if you have questions or libraries you don't want us to miss out on.
+The registry database just went live (22nd June 2010) at [http://fluxdb.fluxusproject.org/](http://fluxdb.fluxusproject.org/)
