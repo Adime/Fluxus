@@ -154,6 +154,19 @@ div.table-plus table thead tr th {
 	background-color: #366999;
 }
 
+.library-description pre code {
+        background-color: #1f1005;
+        color: #DDAE00;
+}
+
+
+.library-description code {
+	font-size:90%;	
+	color: #000;
+	background-color: #F9F7F3;
+	padding: 3px 3px;
+}
+
 .library-description pre {
         text-indent: -3px;
         margin: 10px;
@@ -170,13 +183,6 @@ div.table-plus table thead tr th {
         -moz-border-radius: 10px;
         -webkit-border-radius: 10px;
         -khtml-border-radius: 10px;
-}
-
-.library-description code {
-	font-size:90%;	
-	color: #000;
-	background-color: #F9F7F3;
-	padding: 3px 3px;
 }
 
 .library-description p {
