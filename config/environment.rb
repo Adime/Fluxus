@@ -1,4 +1,5 @@
 # Be sure to restart your server when you modify this file
+ENV['GEM_PATH'] = '/home/jasonm23/.gem:/usr/lib/ruby/gems/1.8'
 
 # Specifies gem version of Rails to use when vendor/rails is not present
 RAILS_GEM_VERSION = '2.3.5' unless defined? RAILS_GEM_VERSION
@@ -17,17 +18,17 @@ Rails::Initializer.run do |config|
 
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
-  config.gem "hpricot"
+  # config.gem "hpricot"
   config.gem "rdiscount"
   config.gem 'hobo'
   
-  config.gem "sqlite3-ruby", :lib => "sqlite3"
+  # config.gem "sqlite3-ruby", :lib => "sqlite3"
   
   # config.gem "aws-s3", :lib => "aws/s3"
 
   # specify any additional requires...
-  require "open-uri"
-  require "html2markdown"
+  # require "open-uri"
+  # require "html2markdown"
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named

@@ -2581,6 +2581,8 @@ rhombus features:
 * config-, locale- and data loaders
 * XML data parsers
 ','svn','http://hexagon.googlecode.com/svn/trunk/','hexagon/src','MIT License','http://code.google.com','http://code.google.com/p/hexagon/','','actionscript, as3, framework, games, gamedev, engine, flash, flex, library, api, isometric, lib, adobe, air','','2010-06-20 09:11:25','2010-06-20 09:11:25');
+CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "crypted_password" varchar(40), "salt" varchar(40), "remember_token" varchar(255), "remember_token_expires_at" datetime, "name" varchar(255), "email_address" varchar(255), "administrator" boolean DEFAULT 'f', "created_at" datetime, "updated_at" datetime, "state" varchar(255) DEFAULT 'active', "key_timestamp" datetime);
+INSERT INTO "users" VALUES(1,'878d29abb9cd0cbe5aa0a99c0435b65c4f3b890a','404f9a6d0cecc6116a7c3a50567f9c9474d64b91',NULL,NULL,'Jason','jasonm23@gmail.com','t','2010-05-19 12:39:35','2010-05-19 12:39:35','active',NULL);
 CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version");
 CREATE INDEX "index_comments_on_user_id" ON "comments" ("user_id");
 CREATE INDEX "index_comments_on_library_id" ON "comments" ("library_id");
