@@ -94,7 +94,6 @@ body {
         font: .9em Helvetica, Arial, sans-serif;
         color: #444;
         background: #E5E5E5;
-        text-shadow: 0 1px 0 #fff;
 }
 
 .content-body {
@@ -200,4 +199,8 @@ h1.app-name {
         -webkit-border-radius: 3px 3px 0px 0px;
         -moz-border-radius: 3px 3px 0px 0px;
         -khtml-border-radius: 3px 3px 0px 0px;
+}
+
+.main-nav.current a {
+        text-shadow: 0 1px 0 #fff;
 }
