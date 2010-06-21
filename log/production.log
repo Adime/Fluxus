@@ -2604,3 +2604,38 @@ Completed in 51ms (View: 49, DB: 1) | 200 OK [http://fluxdb.fluxusproject.org/]
 Processing LibrariesController#index (for 60.241.116.152 at 2010-06-21 07:31:06) [GET]
 Rendering libraries/index
 Completed in 753ms (View: 740, DB: 8) | 200 OK [http://fluxdb.fluxusproject.org/libraries]
+
+
+Processing FrontController#index (for 60.241.116.152 at 2010-06-21 08:04:54) [GET]
+Rendering front/index
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/core.dryml in 0.02s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_core.dryml in 0.33s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_support.dryml in 0.01s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_document_tags.dryml in 0.03s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_pages.dryml in 0.38s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_editing.dryml in 0.21s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_forms.dryml in 0.53s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_navigation.dryml in 0.15s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_plus.dryml in 0.33s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_generics.dryml in 0.03s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_lifecycles.dryml in 0.02s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_summary.dryml in 0.73s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid_user_pages.dryml in 0.43s
+  DRYML: Compiled /home/jasonm23/.gem/gems/hobo-1.0.1/taglibs/rapid.dryml in 3.22s
+  DRYML: Compiled app/views/taglibs/auto/rapid/cards.dryml in 0.03s
+  DRYML: Compiled app/views/taglibs/auto/rapid/pages.dryml in 0.70s
+  DRYML: Compiled app/views/taglibs/auto/rapid/forms.dryml in 0.05s
+  DRYML: Compiled app/views/taglibs/themes/clean/clean.dryml in 0.01s
+  DRYML: Compiled app/views/taglibs/application.dryml in 4.21s
+  DRYML: Compiled app/views/front/index.dryml in 4.25s
+Completed in 4466ms (View: 4460, DB: 2) | 200 OK [http://fluxdb.fluxusproject.org/]
+
+
+Processing FrontController#search (for 60.241.116.152 at 2010-06-21 08:14:19) [GET]
+  Parameters: {"query"=>"test"}
+Completed in 320ms (View: 0, DB: 10) | 200 OK [http://fluxdb.fluxusproject.org/search?query=test]
+
+
+Processing FrontController#index (for 60.241.116.152 at 2010-06-21 08:15:47) [GET]
+Rendering front/index
+Completed in 34ms (View: 32, DB: 1) | 200 OK [http://fluxdb.fluxusproject.org/]
