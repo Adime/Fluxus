@@ -201,6 +201,6 @@ h1.app-name {
         -khtml-border-radius: 3px 3px 0px 0px;
 }
 
-.main-nav.current a {
+.main-nav li.current a {
         text-shadow: 0 1px 0 #fff;
 }
