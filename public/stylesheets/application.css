@@ -194,3 +194,10 @@ h1.app-name {
        font-size: 30pt;
        letter-spacing: -1px;
 }
+
+.main-nav li a {
+        border-radius: 3px 3px 0px 0px;
+        -webkit-border-radius: 3px 3px 0px 0px;
+        -moz-border-radius: 3px 3px 0px 0px;
+        -khtml-border-radius: 3px 3px 0px 0px;
+}
