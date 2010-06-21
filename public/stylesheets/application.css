@@ -9,22 +9,22 @@ html, body {color: #193440; background-color: #aa9; }
 .page-header {color: white; background: #211; margin:0;}
 
 h1,h1.app-name, h2.heading {
-     font-family: 'DINPro', arial, serif;
-     font-weight: normal;
+	 font-family: 'DINPro', arial, serif;
+	 font-weight: normal;
 }
 
 h1 {
-     letter-spacing: -2px;
-     margin-top: 5px;
+	 letter-spacing: -2px;
+	 margin-top: 5px;
 }
 
 h1.app-name {
-     letter-spacing: -4px;
+	 letter-spacing: -4px;
 }
 
 .account-nav {
-    float:right;
-    margin: 3px 10px 0 0;
+	float:right;
+	margin: 3px 10px 0 0;
 	font-size: 11px;
 }
 .account-nav li {
@@ -41,7 +41,7 @@ ul.main-nav li a {
 }
 
 h1.app-name {
-        font-size:45pt;
+		font-size:45pt;
 }
 
 div.card div.header h3.heading{
@@ -56,12 +56,12 @@ div.card div.body {
 }
 
 div.card {
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -khtml-border-radius: 10px;
-        background-color: #f5f5ef;
-        border: 1px solid #eeb;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+		background-color: #f5f5ef;
+		border: 1px solid #eeb;
 }
 
 .login-page {background:transparent;}
@@ -74,34 +74,34 @@ div.card {
 }
 
 .login-page div.section {
-        border-radius: 0px 0px 10px 10px;
+		border-radius: 0px 0px 10px 10px;
 	-webkit-border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;
-        -khtml-border-radius: 0px 0px 10px 10px;
+		-khtml-border-radius: 0px 0px 10px 10px;
 }
 
 .card h3 {
-        margin-top: 0px;
+		margin-top: 0px;
 }
 
 .card a {
-        background: transparent;
+		background: transparent;
 }
 
 body {
 	width: 1020px;  
 	margin: 0 auto 0 auto;
-        font: .9em Helvetica, Arial, sans-serif;
-        color: #444;
-        background: #E5E5E5;
+		font: .9em Helvetica, Arial, sans-serif;
+		color: #444;
+		background: #E5E5E5;
 }
 
 .content-body {
-        padding: 5px;
+		padding: 5px;
 }
 
 .section.with-flash {
-     padding-top: 0px;
+	 padding-top: 0px;
 }
 
 
@@ -140,7 +140,7 @@ a:hover {
 
 h2.heading {
 	font-size:24pt;
-        letter-spacing: -3px;
+		letter-spacing: -3px;
 }
 
 div.table-plus table thead tr th,
@@ -156,26 +156,31 @@ div.table-plus table thead tr th {
 
 .library-description pre {
         text-indent: -3px;
-	margin: 10px;
-	padding: 10px;
-	border-top:1px solid #E9E3D2;
-	border-bottom:1px solid #E9E3D2;
-	background-color: #F9F7F3;
+        margin: 10px;
+        padding: 10px;
+        border-top:1px solid #E9E3D2;
+        border-bottom:1px solid #E9E3D2;
+        background-color: #1f1005;
+        color: #DDAE00;
         font-size:90%;	
         white-space: pre-wrap;
         white-space: -moz-pre-wrap;
         white-space: -o-pre-wrap;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -khtml-border-radius: 10px;
 }
 
 .library-description code {
-    font-size:90%;	
-    color: #000;
+	font-size:90%;	
+	color: #000;
 	background-color: #F9F7F3;
 	padding: 3px 3px;
 }
 
 .library-description p {
-	
+
 	margin:1em 0px;
 }
 
@@ -184,23 +189,23 @@ div.table-plus table thead tr th {
 }
 
 h1.app-name {
-       font-size:32pt;
-       font-weight: normal;
+	   font-size:32pt;
+	   font-weight: normal;
 }
 
 .card h3 {
-       font-weight: normal;
-       font-size: 30pt;
-       letter-spacing: -1px;
+	   font-weight: normal;
+	   font-size: 30pt;
+	   letter-spacing: -1px;
 }
 
 .main-nav li a {
-        border-radius: 3px 3px 0px 0px;
-        -webkit-border-radius: 3px 3px 0px 0px;
-        -moz-border-radius: 3px 3px 0px 0px;
-        -khtml-border-radius: 3px 3px 0px 0px;
+		border-radius: 3px 3px 0px 0px;
+		-webkit-border-radius: 3px 3px 0px 0px;
+		-moz-border-radius: 3px 3px 0px 0px;
+		-khtml-border-radius: 3px 3px 0px 0px;
 }
 
 .main-nav li.current a {
-        text-shadow: 0 1px 0 #fff;
+		text-shadow: 0 1px 0 #fff;
 }
