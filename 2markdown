@@ -1,12 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'html2markdown.rb'
-p = HTMLToMarkdownParser.new
-s = ""
-
-$stdin.each do |line|
-  s += line
-end
-
-p.feed(s)
-puts p.to_markdown
+parser = HTMLToMarkdownParser.new
+out = ""
+$stdin.each {|line| out += line }
+parser.feed(out)
+puts parser.to_markdown
