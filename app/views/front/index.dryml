@@ -4,7 +4,9 @@
 
   <content:>
     <section class="content-body">
-		<readme/>
+		<div id="readme">
+			<readme/>
+		</div>
     </section>
 	<footer>
 		<p class="smallprint"><a href="/libraries/catalogxml" target="_blank">Export the registry to XML</a></p>

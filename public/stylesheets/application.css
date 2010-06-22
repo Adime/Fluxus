@@ -64,6 +64,16 @@ div.card {
 		border: 1px solid #eeb;
 }
 
+div#readme {
+	
+	margin: 3em;
+	
+}
+
+div#readme h1 {	font-size: 30pt; margin-top: 1.4em;}
+div#readme h2 {	font-size: 25pt; margin-top: 1.3em;}
+div#readme h3 {	font-size: 20pt; margin-top: 1.1em;}
+
 .flash {
 		border-radius: 5px;
 		-moz-border-radius: 5px;
@@ -231,4 +241,17 @@ div.footer {
 	margin: 2em;
 	height: 2em;
 	
+}
+
+div#search-results-panel {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+	background-color: #1F0F00;
+	border: 1px solid black;
+}
+
+div#search-results-panel > h2 {
+	color: white;
 }
