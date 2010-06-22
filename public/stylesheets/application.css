@@ -255,3 +255,7 @@ div#search-results-panel {
 div#search-results-panel > h2 {
 	color: white;
 }
+
+div#search-results-panel .close-button {
+	color: white;
+}
