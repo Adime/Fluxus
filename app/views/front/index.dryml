@@ -7,7 +7,7 @@
 		<readme/>
     </section>
 	<footer>
-		<p class="smallprint"><a href="/libraries/catalogxml/all" target="_blank">Get the registry as XML</a></p>
+		<p class="smallprint"><a href="/libraries/catalogxml" target="_blank">Export the registry to XML</a></p>
 	</footer>
   </content:>
   

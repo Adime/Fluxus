@@ -28,7 +28,6 @@
 
         <p param="count" if>
           <ht key="comments.collection.count" count="&this.size">
-
             There <count prefix="are"/>
           </ht>
         </p>

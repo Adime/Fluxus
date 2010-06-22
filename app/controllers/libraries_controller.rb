@@ -4,16 +4,6 @@ class LibrariesController < ApplicationController
 
   auto_actions :all
 
-  def catalogxml
-    @libraries = Library.all
-  end
-
-  def tableplus
-    @libraries = Library.all
-  end
-
-
-#  def table
-#  end
+  index_action :catalogxml
 
 end
