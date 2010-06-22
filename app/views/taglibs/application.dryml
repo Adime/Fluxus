@@ -8,6 +8,10 @@
 
 <def tag="app-name">FluxDb</def>
 
+<def tag="readme">
+	<div><%= @readme %></div>
+</def>
+
 <def tag="main-nav">
   <navigation class="main-nav" merge-attrs param="default">
     <nav-item href="#{base_url}/">Home</nav-item>
@@ -24,8 +28,17 @@
     </header:>
     <body: param>
       <view:summary/>
-      <p class="smallprint"><a href="&this.homepage"><view:homepage/></a></p>
-	  <p class="smallprint">[<view:package/>] <a href="&this.repository"><view:repository/></a></p>
+      <!-- p class="smallprint"><a href="&this.homepage"><view:homepage/></a></p>
+	  <p class="smallprint">[<view:package/>] <a href="&this.repository"><view:repository/></a></p -->
+	  <if test="&this.package == nil">
+		<p class="smallprint">Info missing | 
+			<a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="libraries.actions.edit" name="&this.respond_to?(:name) ? this.name : ''">
+                Edit Library
+              </ht>
+            </a>
+		</p>
+	  </if>
     </body:>
   </card>
 </def>

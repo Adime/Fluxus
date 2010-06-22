@@ -2,7 +2,9 @@ class FrontController < ApplicationController
 
   hobo_controller
 
-  def index; end
+  def index
+    @readme = RDiscount.new(open("README.markdown").read, :autolink).to_html
+  end
 
   def summary
     if !current_user.administrator?

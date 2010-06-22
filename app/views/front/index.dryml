@@ -3,25 +3,12 @@
   <body: class="front-page"/>
 
   <content:>
-    <header class="content-header">
-     	<section class="welcome-message">
-		<p>Registry and Package manager, for Flex &amp; AS3 libraries</p>
-		<p>Coming Soon: Pretty diagram, Download client tool(s), API (etc...etc)</p>
-		<p><a href="/libraries/catalogxml/all" target="_blank">View feed</a></p>
-    
-        <% if User.count == 0 -%>
-          <h3 style="margin-top: 20px;">There are no user accounts - please provide the details of the site administrator</h3>
-          <do with="&User.new"><% this.exempt_from_edit_checks = true %>
-            <signup-form/>
-          </do>
-        <% end -%>
-        
-      
-      </section>
-    </header>
-
     <section class="content-body">
+		<readme/>
     </section>
+	<footer>
+		<p class="smallprint"><a href="/libraries/catalogxml/all" target="_blank">Get the registry as XML</a></p>
+	</footer>
   </content:>
   
 </page>

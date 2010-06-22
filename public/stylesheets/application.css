@@ -5,8 +5,8 @@
   src: local('DINPro'), url('http://fluxdb.fluxusproject.org/fonts/DINPro_Regular.otf') format('opentype');
 }
 
-html, body {color: #193440; background-color: #aa9; }
-.page-header {color: white; background: #211; margin:0;}
+html, body {color: #193440; background-color: #000;}
+.page-header {color: white; background: #211; margin:0; background: url(../images/2bnMUj.png);}
 
 h1,h1.app-name, h2.heading {
 	 font-family: 'DINPro', arial, serif;
@@ -105,6 +105,10 @@ body {
 
 .content-body {
 		padding: 5px;
+}
+
+.content-body p {
+	margin:0.6em 0;
 }
 
 .section.with-flash {
@@ -220,4 +224,11 @@ h1.app-name {
 
 .main-nav li.current a {
 		text-shadow: 0 1px 0 #fff;
+}
+
+div.footer {
+	
+	margin: 2em;
+	height: 2em;
+	
 }

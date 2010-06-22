@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'html2markdown.rb'
+p = HTMLToMarkdownParser.new
+s = ""
+
+$stdin.each do |line|
+  s += line unless $stdin.eof
+end
+
+p.feed(s)
+puts p.to_markdown
