@@ -64,6 +64,13 @@ div.card {
 		border: 1px solid #eeb;
 }
 
+.flash {
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+}
+
 .login-page {background:transparent;}
 
 .login-page div.header {
