@@ -9,7 +9,7 @@
 		</div>
     </section>
 	<footer>
-		<p class="smallprint"><a href="/libraries/catalogxml.xml" target="_blank">Export the registry to XML</a></p>
+		<p class="smallprint"><a href="/libraries/catalog.xml" target="_blank">Export the registry to XML</a></p>
 	</footer>
   </content:>
   
