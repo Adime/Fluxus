@@ -1,7 +1,15 @@
 xml.instruct!
 xml.comment! "Fluxus library project - Flex/AS3 class library and swc package management"
 xml.fluxus {
-  @libraries.each { |l|
-    xml.library( :name => l.name, :package => l.package, :repo => l.repository, :docs => l.docs, :license => l.license, :home => l.homepage )
+  @libraries.each { |lib|
+    xml.library( 
+        :name => lib.name, 
+        :package => lib.package, 
+        :repository => lib.repository, 
+        :sourcepath => lib.sourcepath,
+        :docs => lib.docs,
+        :license => lib.license, 
+        :homepage => lib.homepage
+    )
   }
 }
