@@ -6,7 +6,7 @@ The FluxusProject is a library registry and associated tooling for the AS3 / Fle
 
 ### FluxDb
 
-FluxDb is the online registry where you can find libraries and their source or _swc_ file. Fluxus handles libraries which have been made available via svm, git, zip (source or swc) or swc.
+FluxDb is the online registry where you can find libraries and their source or _swc_ file. Fluxus handles libraries which have been made available via svn, git, zip (source or swc) or swc.
 
 Library authors will be able to add new libraries to the registry via a simple manifest file, which provides details of the library and it's code repository (or downloadable assets).
 
