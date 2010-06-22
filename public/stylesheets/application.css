@@ -252,7 +252,7 @@ div#search-results-panel {
 	border: 1px solid black;
 }
 
-div#search-results-panel > p, 
+div#search-results-panel p, 
 div#search-results-panel > h2, 
 div#search-results-panel .close-button {
 	color: white;
