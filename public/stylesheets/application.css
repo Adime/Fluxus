@@ -155,8 +155,8 @@ div.table-plus table thead tr th {
 }
 
 .library-description pre code {
-        background-color: #1f1005;
-        color: #f0e000;
+        background: transparent;
+        color: #ff6600;
 }
 
 
@@ -173,7 +173,7 @@ div.table-plus table thead tr th {
         padding: 20px;
         overflow: auto;
         background-color: #1f1005;
-        color: #f0e000;
+        color: #ff6600;
         font-size:90%;	
         white-space: pre-wrap;
         white-space: -moz-pre-wrap;
