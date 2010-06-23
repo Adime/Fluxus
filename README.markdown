@@ -22,7 +22,7 @@ The fluxGui is a GUI front end to interact with your local Fluxus based AS3/Flex
 
 ### Roadmap
 
-The FluxDb, in it's alpha state, is now online as of 2010/06/22 @ http://fluxdb.fluxusproject.org/
+The FluxDb, in it's alpha state, is now online as of 2010/06/22 @ [http://fluxdb.fluxusproject.org/](http://fluxdb.fluxusproject.org/)
 
 Flux/FluxGui client tools are still in development, `flux` likely release is late August, early September 2010. FluxGui to be announced.
 
@@ -32,7 +32,7 @@ Each module of the FluxusProject will be under continuous beta for the forseeabl
 
 ### Contribution
 
-Feel free to fork the project from http://github.com/jasonm23/fluxus. Pull requests are accepted if you add a feature, The test coverage for the core project is pretty abysmal, however, contributors are expected to provide test coverage for any significant code additions.
+Feel free to fork the project from [http://github.com/jasonm23/fluxus](http://github.com/jasonm23/fluxus). Pull requests are accepted if you add a feature, The test coverage for the core project is pretty abysmal, however, contributors are expected to provide test coverage for any significant code additions.
 
 If you would like to contribute in non code ways, we are happy to receive help in other forms, web and graphic design, documentation, screencasts and tutorial authors etc, not to mention evangelists and people who have a strong opinion on the FlashPlatform, dependency management and so on...
 
