@@ -4,6 +4,7 @@ class LibrariesController < ApplicationController
 
   auto_actions :all
 
-  index_action :catalogxml
+  # to be called as catalog.xml
+  index_action :catalog
 
 end

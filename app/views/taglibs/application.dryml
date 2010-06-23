@@ -9,7 +9,7 @@
 <def tag="app-name">FluxDb</def>
 
 <def tag="readme">
-	<div><%= @readme %></div>
+    <%= @readme %>
 </def>
 
 <def tag="main-nav">
