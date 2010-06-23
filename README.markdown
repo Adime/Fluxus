@@ -22,7 +22,7 @@ The fluxGui is a GUI front end to interact with your local Fluxus based AS3/Flex
 
 ### Roadmap
 
-The FluxDb, in it's alpha state, is now online as of 2010/06/22.
+The FluxDb, in it's alpha state, is now online as of 2010/06/22 @ http://fluxdb.fluxusproject.org/
 
 Flux/FluxGui client tools are still in development, `flux` likely release is late August, early September 2010. FluxGui to be announced.
 
