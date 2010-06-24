@@ -148,7 +148,7 @@ class HTMLToMarkdownParser < SGMLParser
     write("\n\n\n\n")
   end
   
-  def start_p
+  def start_p(attrs)
       write("\n\n")
       start_capture("p")
   end
