@@ -46,9 +46,12 @@ class HTMLToMarkdownParser < SGMLParser
   end
   
   def make_block_start_pair(tag, attributes)
-    attributes = attrs_to_hash(attributes)
-    write("\n\n#{tag} ")
     start_capture(tag)
+    write("\n\n")
+    write("#{tag}")
+    if(tag != '')
+        write(' ')
+    end
   end
   
   def make_block_end_pair
@@ -57,7 +60,6 @@ class HTMLToMarkdownParser < SGMLParser
   end
   
   def make_quicktag_start_pair(tag, wrapchar, attributes)
-    attributes = attrs_to_hash(attributes)
     write([" ", "#{wrapchar}"])
     start_capture(tag)
   end
@@ -71,7 +73,11 @@ class HTMLToMarkdownParser < SGMLParser
     if self.data_stack.size < 2
       self.result += d.to_a
     else
-      self.data_stack[-1] += d.to_a
+        if self.data_stack[-1] == "\n" || self.data_stack[-1] == " "
+            self.data_stack[-3] += d.to_a
+        else
+            self.data_stack[-1] += d.to_a
+        end
     end
   end
           
@@ -137,15 +143,15 @@ class HTMLToMarkdownParser < SGMLParser
   end
   
   def start_pre(attrs)
-  	self.in_pre = true
-  	start_capture("pre")
-  	write("\n\n    ")
+    self.in_pre = true
+    start_capture("pre")
+    write("\n\n    ")
   end
   
   def end_pre
     self.in_pre = false
     stop_capture_and_write
-    write("\n\n\n\n")
+    write("\n\n")
   end
   
   def start_p(attrs)
@@ -236,7 +242,7 @@ class HTMLToMarkdownParser < SGMLParser
   
   # Return the markdown after processing
   def to_markdown
-    result.join
+    `echo "#{result.join}" | tr -s '\n '`
   end   
   
 end
