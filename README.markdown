@@ -2,6 +2,10 @@
 
 The FluxusProject is a library registry and associated tooling for the AS3 / Flex community, we intend to provide a service much like RubyGems, Perl CPAN and PHP Pear.
 
+# Blog
+
+The official Fluxus project blog is at http://blog.fluxusproject.org
+
 - - -
 
 ### FluxDb
