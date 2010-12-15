@@ -42,6 +42,10 @@ If you would like to contribute in non code ways, we are happy to receive help i
 
 Ultimately we'd like to make this as much of a community resource as possible.
 
+### Licence
+
+The flux / fluxgui clients and the fluxdb server are licensed under the MIT Licence
+
 - - -
 
 ### Notes
